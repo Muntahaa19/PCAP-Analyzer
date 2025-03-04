@@ -1,28 +1,28 @@
-**PCAP Analyzer Tool**
+PCAP Analyzer Tool
 
-:pushpin:**Overview**
+Overview
 
 The PCAP Analyzer Tool is a machine learning-based network security tool that analyzes packet capture (PCAP) files to detect potential security threats. It leverages Scapy, PyShark, and a trained Random Forest model to classify network traffic as either normal or anomalous.
 
-:pushpin:**Features**
+Features
 
-1. PCAP File Parsing: Extracts essential network traffic details from PCAP files.
+PCAP File Parsing: Extracts essential network traffic details from PCAP files.
 
-2. Feature Extraction: Computes key traffic metrics such as source/destination IP counts and packet lengths.
+Feature Extraction: Computes key traffic metrics such as source/destination IP counts and packet lengths.
 
-3. Machine Learning-Based Detection: Utilizes a pre-trained Random Forest Classifier for anomaly detection.
+Machine Learning-Based Detection: Utilizes a pre-trained Random Forest Classifier for anomaly detection.
 
-4. Automated Threat Alerts: Identifies potential threats in new network traffic.
+Automated Threat Alerts: Identifies potential threats in new network traffic.
 
-5. Performance Evaluation: Provides accuracy, precision, and recall metrics.
+Performance Evaluation: Provides accuracy, precision, and recall metrics.
 
-:pushpin:**Installation******
+Installation
 
 Ensure you have Python 3.x installed and then install the required dependencies:
 
 pip install scapy pyshark pandas numpy scikit-learn joblib
 
-:pushpin:**Usage**
+Usage
 
 1. Load a PCAP File and Extract Network Data
 
@@ -49,7 +49,7 @@ from pcap_analyzer import detect_anomalies
 
 detect_anomalies("new_traffic.pcap")
 
-:pushpin:**Future Enhancements**
+Future Enhancements
 
 Integration with Deep Learning for advanced threat detection.
 
@@ -57,7 +57,7 @@ Real-time PCAP analysis for continuous monitoring.
 
 Web-based UI for user-friendly interaction.
 
-:pushpin:**Author**
+Author
 
 Developed by Muntaha Nasir.
 
